@@ -384,5 +384,4 @@ void showLogInScreen()
 int main()
 {
     showLogInScreen();
-    cout << loggedInClient.accountBalance;
 }
