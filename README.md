@@ -31,6 +31,16 @@ Each folder represents a distinct version, highlighting the architectural change
 
 ---
 
+## 🌟 Project Features
+
+- **Client & User Management:** Complete CRUD operations for clients and system users.
+- **Secure Authentication:** User login with password masking and controlled access via a login screen.
+- **Financial Transactions:** Supports deposits, withdrawals, and secure money transfers between accounts.
+- **Detailed Logging:** Tracks and displays login attempts and financial transfer histories.
+- **Data Persistence:** All data is stored and managed using local text files.
+
+---
+  
 ## ✨ Versions And Development Stages
 
 ### Structured-Version-1
@@ -42,17 +52,17 @@ Each folder represents a distinct version, highlighting the architectural change
 
 **Architectural Notes**:  The code is organized into a set of functions, with data being passed between them. It represents a straightforward, top-down design approach.
 
-![Version 1 Initial UI](Assets/Images/Version1.png)
+<br>
 
 ### Structured-Version-2
-**Description**: Building upon the initial version, this release expands the system's functionality by introducing financial transaction features. While still operating within the structured programming paradigm, this version adds the capability for clients to perform withdrawals and deposits.\
+**Description**: Building upon the initial version, this release expands the system's functionality by introducing financial transaction features. While still operating within the structured programming paradigm, this version adds the capability for clients to perform withdrawals and deposits.
 
 **Key Features**:
 - **Withdrawal & Deposit**: New screens were implemented to allow for monetary transactions.
 - **Total Balance View**: A feature was added to display the aggregated total balance of all accounts in the system.
 
 **Architectural Notes**: This version introduces more complex transaction logic and state management, but still relies on procedural functions to manage all operations.
-
+<br>
 
 ### Structured-Version-3
 **Description**: This is the final release within the structured programming series. It marks a significant upgrade by introducing user authentication and access control. This version establishes the groundwork for a multi-user environment, where different users can log in and perform actions based on their permissions.
@@ -63,7 +73,9 @@ Each folder represents a distinct version, highlighting the architectural change
 - **User Management**: A new set of CRUD operations for system users was implemented.
 - **Controlled Access**: The system now restricts access to certain functionalities based on user credentials. The Access is defined by Bitmask flags using bitwise operators.
 
-**Architectural Notes**: The introduction of user management and access control highlights the growing complexity of the structured design, paving the way for the need to refactor into a more scalable paradigm.\
+**Architectural Notes**: The introduction of user management and access control highlights the growing complexity of the structured design, paving the way for the need to refactor into a more scalable paradigm.
+
+<br>
 
 ### OOP-Refactored-Version-4
 **Description**: This is the project's most critical release, representing a complete **refactoring from a structured to an Object-Oriented Programming (OOP) architecture.** The core entities of the system *(Client and User)* are now encapsulated into classes, which dramatically improves code organization, reusability, and maintainability.
@@ -72,8 +84,9 @@ Each folder represents a distinct version, highlighting the architectural change
 - **Full OOP Refactoring**: The entire system was rebuilt using classes for Client, User, and other relevant entities.
 - **UI Optimization**: All UI screens were updated to dynamically display the currently logged-in user and the current date, enhancing the user experience and demonstrating proper state management within an OOP context.
 
-**Purpose**: This version serves as the central showcase of transitioning a project from one architectural style to another, demonstrating a deeper understanding of software design principles.\
+**Purpose**: This version serves as the central showcase of transitioning a project from one architectural style to another, demonstrating a deeper understanding of software design principles.
 
+<br>
 
 ### OOP-Refactored-Version-5
 **Description**: This is the final and most robust version of the bank management system. It builds upon the solid OOP foundation established in Version 4 by adding several new features and significant code enhancements. This version demonstrates a refined and polished application.
@@ -132,3 +145,10 @@ Each folder is self-contained. To run any version, navigate to its directory in 
     * `<iomanip>` for input/output manipulation (e.g., formatting tables and numbers).
     * `<type_traits>` for compile-time type information, specifically using `is_same()`.
     * Other standard headers used for various functionalities (e.g., `<vector>`, `<fstream>`).
+ 
+---
+
+## Author
+
+**Andrew Remon** - [https://github.com/andrew-remon]
+let's connect with on [https://www.linkedin.com/in/andrewremon/]
