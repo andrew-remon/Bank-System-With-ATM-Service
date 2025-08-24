@@ -42,7 +42,7 @@ Each folder represents a distinct version, highlighting the architectural change
 
 **Architectural Notes**:  The code is organized into a set of functions, with data being passed between them. It represents a straightforward, top-down design approach.
 
-![Version 1 Initial UI](Assets/Images/Version1.png)\
+![Version 1 Initial UI](Assets/Images/Version1.png)
 
 ### Structured-Version-2
 **Description**: Building upon the initial version, this release expands the system's functionality by introducing financial transaction features. While still operating within the structured programming paradigm, this version adds the capability for clients to perform withdrawals and deposits.\
@@ -58,7 +58,8 @@ Each folder represents a distinct version, highlighting the architectural change
 **Description**: This is the final release within the structured programming series. It marks a significant upgrade by introducing user authentication and access control. This version establishes the groundwork for a multi-user environment, where different users can log in and perform actions based on their permissions.
 
 **Key Features**: 
-- **Login Screen**: A dedicated login screen was created to authenticate users. ![Version 3 Login Screen](Assets/Images/Version3-login-screen.png)
+- **Login Screen**: A dedicated login screen was created to authenticate users.
+   ![Version 3 Login Screen](Assets/Images/Version3-login-screen.png)
 - **User Management**: A new set of CRUD operations for system users was implemented.
 - **Controlled Access**: The system now restricts access to certain functionalities based on user credentials. The Access is defined by Bitmask flags using bitwise operators.
 
@@ -85,7 +86,9 @@ Each folder represents a distinct version, highlighting the architectural change
 - **Clean File Structure**: Header and source files were reorganized into well-defined, clean-named folders, improving project navigation and professional appearance.
 - **Comprehensive Documentation**: This is the only version of the project that includes **professional-level documentation for every file, class, and method**. This effort demonstrates a commitment to writing clean, maintainable code and providing clear instructions for future developers.
 
-![Version 5 Transfer Logs Screen](Assets/Images/Version5(3)-Transfer-Logs.png)\
+![Version 5 Transfer Logs Screen](Assets/Images/Version5(3)-Transfer-Logs.png)
+
+<br>
 
 ### Structured-ATM-Service
 **Description**: This folder stands as an independent module separate from the main development journey. It is a standalone ATM service built using the original structured programming paradigm. Its purpose is to showcase how the structured approach could be applied to a specific, self-contained service within the banking system ecosystem.
