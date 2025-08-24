@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Project Features](#project-features)
 - [Versions and Development Stages](#versions-and-development-stages)
   - [Structured-Version-1](#structured-version-1)
   - [Structured-Version-2](#structured-version-2)
@@ -13,6 +14,7 @@
   - [Structured-ATM-Service](#structured-atm-service)
 - [How to Run a Specific Version](#how-to-run-a-specific-version)
 - [Technologies Used](#technologies-used)
+- [Author](#auther)
 
 ---
 
@@ -69,7 +71,6 @@ Each folder represents a distinct version, highlighting the architectural change
 
 **Key Features**: 
 - **Login Screen**: A dedicated login screen was created to authenticate users.
-   ![Version 3 Login Screen](Assets/Images/Version3-login-screen.png)
 - **User Management**: A new set of CRUD operations for system users was implemented.
 - **Controlled Access**: The system now restricts access to certain functionalities based on user credentials. The Access is defined by Bitmask flags using bitwise operators.
 
@@ -98,8 +99,6 @@ Each folder represents a distinct version, highlighting the architectural change
 - **Code Restructuring**: The CRUD operations for both users and clients were standardized using a C++ template, which improves code reusability and reduces redundancy.
 - **Clean File Structure**: Header and source files were reorganized into well-defined, clean-named folders, improving project navigation and professional appearance.
 - **Comprehensive Documentation**: This is the only version of the project that includes **professional-level documentation for every file, class, and method**. This effort demonstrates a commitment to writing clean, maintainable code and providing clear instructions for future developers.
-
-![Version 5 Transfer Logs Screen](Assets/Images/Version5(3)-Transfer-Logs.png)
 
 <br>
 
@@ -150,5 +149,6 @@ Each folder is self-contained. To run any version, navigate to its directory in 
 
 ## Author
 
-**Andrew Remon** - [https://github.com/andrew-remon]
-let's connect with on [https://www.linkedin.com/in/andrewremon/]
+**Andrew Remon** - [My GitHub Profile](https://github.com/andrew-remon)
+<br>
+let's connect on [LinkedIn](https://www.linkedin.com/in/andrewremon)
