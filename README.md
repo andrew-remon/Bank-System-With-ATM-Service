@@ -3,18 +3,18 @@
 ![Final application main screen](Assets/Images/Version5(2).png)
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Project Features](#project-features)
-- [Versions and Development Stages](#versions-and-development-stages)
-  - [Structured-Version-1](#structured-version-1)
-  - [Structured-Version-2](#structured-version-2)
-  - [Structured-Version-3](#structured-version-3)
-  - [OOP-Refactored-Version-4](#oop-refactored-version-4)
-  - [OOP-Refactored-Version-5](#oop-refactored-version-5)
+- [Project Overview](#Project-Overview)
+- [Project Features](#Project-Features)
+- [Versions and Development Stages](#Versions-and-Development-Stages)
+  - [Structured-Version-1](#Structured-Version-1)
+  - [Structured-Version-2](#Structured-Version-2)
+  - [Structured-Version-3](#Structured-Version-3)
+  - [OOP-Refactored-Version-4](#OOP-Refactored-Version-4)
+  - [OOP-Refactored-Version-5](#OOP-Refactored-Version-5)
   - [Structured-ATM-Service](#structured-atm-service)
-- [How to Run a Specific Version](#how-to-run-a-specific-version)
-- [Technologies Used](#technologies-used)
-- [Author](#author)
+- [How to Run a Specific Version](#How-To-Run-a-Specific-Version)
+- [Technologies Used](#Technologies-Used)
+- [Author](#Author)
 
 ---
 
