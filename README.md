@@ -14,7 +14,7 @@
   - [Structured-ATM-Service](#structured-atm-service)
 - [How to Run a Specific Version](#how-to-run-a-specific-version)
 - [Technologies Used](#technologies-used)
-- [Author](#auther)
+- [Author](#author)
 
 ---
 
@@ -147,7 +147,7 @@ Each folder is self-contained. To run any version, navigate to its directory in 
  
 ---
 
-## Author
+## 👤 Author
 
 **Andrew Remon** - [My GitHub Profile](https://github.com/andrew-remon)
 <br>
