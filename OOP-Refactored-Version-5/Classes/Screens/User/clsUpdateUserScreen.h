@@ -74,7 +74,7 @@ public:
     {
         updateEntityScreen
         (
-            ClientsDataFile,
+            UsersDataFile,
             "\tUpdate User Info Screen",
             "\nUser Updated Successfully.\n",
             clsBankUser::readUserName,
